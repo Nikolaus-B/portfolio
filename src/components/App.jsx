@@ -1,10 +1,10 @@
 import { GlobalStyle } from './GloabalStyle';
+import { Header } from './header/Header';
 
 export const App = () => {
   return (
     <div>
-      <h1>dadad</h1>
-      <p>21dascdas</p>
+      <Header />
       <GlobalStyle />
     </div>
   );
