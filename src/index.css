@@ -9,7 +9,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-text-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
   /** font */
@@ -69,10 +69,10 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
-/* body {
+body {
   background-color: var(--body-color);
   color: var(--text-color);
-} */
+}
 
 h1,
 h2,
@@ -152,7 +152,43 @@ img {
   margin-left: var(--mb-0-5);
 }
 
-.button-flex {
+.button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+/** breakpoints **/
+/* desctop */
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 2rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* phone */
+
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
