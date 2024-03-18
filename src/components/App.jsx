@@ -1,7 +1,7 @@
 import { About } from './About/About';
 import { GlobalStyle } from './GloabalStyle';
-import { Header } from 'components/Header/Header';
-import { Home } from 'components/Home/Home';
+import { Header } from './header/Header';
+import { Home } from './Home/Home';
 
 export const App = () => {
   return (
