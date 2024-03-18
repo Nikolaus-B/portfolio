@@ -1,3 +1,4 @@
+import { About } from './About/About';
 import { GlobalStyle } from './GloabalStyle';
 import { Header } from './Header/Header';
 import { Home } from './Home/Home';
@@ -8,6 +9,7 @@ export const App = () => {
       <Header />
       <main className="main">
         <Home />
+        <About />
       </main>
       <GlobalStyle />
     </div>
