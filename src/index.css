@@ -106,18 +106,18 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section-title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section-subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
-.section-title,
-.section-subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
@@ -172,8 +172,16 @@ img {
 
 /* tablet */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section {
     padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
   }
 }
 
