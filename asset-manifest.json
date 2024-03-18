@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5e43bc36.css",
-    "main.js": "/portfolio/static/js/main.54abb9dd.js",
+    "main.css": "/portfolio/static/css/main.56a59e54.css",
+    "main.js": "/portfolio/static/js/main.0a790a78.js",
     "static/media/photo1710765257.jpeg": "/portfolio/static/media/photo1710765257.800b093198242e24f80e.jpeg",
+    "static/media/Mykola_Baliasevych_Dev.pdf": "/portfolio/static/media/Mykola_Baliasevych_Dev.9b4dc4493df6f790e6c2.pdf",
     "index.html": "/portfolio/index.html",
-    "main.5e43bc36.css.map": "/portfolio/static/css/main.5e43bc36.css.map",
-    "main.54abb9dd.js.map": "/portfolio/static/js/main.54abb9dd.js.map"
+    "main.56a59e54.css.map": "/portfolio/static/css/main.56a59e54.css.map",
+    "main.0a790a78.js.map": "/portfolio/static/js/main.0a790a78.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e43bc36.css",
-    "static/js/main.54abb9dd.js"
+    "static/css/main.56a59e54.css",
+    "static/js/main.0a790a78.js"
   ]
 }
