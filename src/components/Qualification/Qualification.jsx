@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './qualification.css';
 
 export const Qualification = () => {
+  const [activeLine, setActiveLine] = useState(1);
+
   return (
     <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
@@ -8,31 +11,138 @@ export const Qualification = () => {
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
-          <div className="qualification__button qualification__active  button--flex">
+          <div
+            onClick={() => setActiveLine(1)}
+            className={`qualification__button button--flex ${
+              activeLine === 1 ? 'qualification__active' : ''
+            }`}
+          >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
 
-          <div className="qualification__button button--flex">
+          <div
+            onClick={() => setActiveLine(2)}
+            className={`qualification__button button--flex ${
+              activeLine === 2 ? 'qualification__active' : ''
+            }`}
+          >
             <i className="uil uil-briefcase qualification__icon"></i>
-            Sectification
+            Experience
           </div>
         </div>
 
         <div className="qualification__sections">
-          <div className="qualification__content">
+          <div
+            className={`qualification__content ${
+              activeLine === 1 ? 'qualification__content-active' : ''
+            }`}
+          >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Applied Linguistic</h3>
-                <p className="qualification__subtitle">NULP - Lviv</p>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2018 - 2023
+                  2023 - 2024
                 </div>
               </div>
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`qualification__content ${
+              activeLine === 2 ? 'qualification__content-active' : ''
+            }`}
+          >
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
+              </div>
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">GoIT</h3>
+                <p className="qualification__subtitle">Lviv - remote</p>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>
+                  2023 - 2024
+                </div>
+              </div>
+              <div>
+                <div className="qualification__rounder"></div>
+                <div className="qualification__line"></div>
               </div>
             </div>
           </div>
