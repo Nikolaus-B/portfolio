@@ -1,4 +1,5 @@
 import { About } from './About/About';
+import { Contact } from './Contact/Contact';
 import { GlobalStyle } from './GloabalStyle';
 import { Header } from './header/Header';
 import { Home } from './Home/Home';
@@ -16,6 +17,7 @@ export const App = () => {
         <Skills />
         <Services />
         <Qualification />
+        <Contact />
       </main>
       <GlobalStyle />
     </div>

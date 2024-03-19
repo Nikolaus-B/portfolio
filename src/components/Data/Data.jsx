@@ -9,7 +9,7 @@ export const Data = () => {
         I'm creative developer based in Ukraine, and very passionate and
         dedicated to my work
       </p>
-      <a href="#contacts" className="button button--flex">
+      <a href="#contact" className="button button--flex">
         Sey Hello
       </a>
     </div>
