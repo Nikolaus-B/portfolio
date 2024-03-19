@@ -17,7 +17,10 @@ export const Contact = () => {
               <h4 className="contact__card-title">Email</h4>
               <p className="contact__card-data">baliasevych123@gmail.com</p>
 
-              <a href="baliasevych123@gmail.com" className="contact__button">
+              <a
+                href="mailto:baliasevych123@gmail.com"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -32,6 +35,8 @@ export const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/mykola-baliasevych/"
                 className="contact__button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -44,7 +49,12 @@ export const Contact = () => {
               <h4 className="contact__card-title">Telegram</h4>
               <p className="contact__card-data">Click and lets talk</p>
 
-              <a href="https://t.me/B_Mykolka" className="contact__button">
+              <a
+                href="https://t.me/B_Mykolka"
+                className="contact__button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>

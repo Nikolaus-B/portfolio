@@ -1,5 +1,6 @@
 import { About } from './About/About';
 import { Contact } from './Contact/Contact';
+import { Footer } from './Footer/Footer';
 import { GlobalStyle } from './GloabalStyle';
 import { Header } from './header/Header';
 import { Home } from './Home/Home';
@@ -19,6 +20,7 @@ export const App = () => {
         <Qualification />
         <Contact />
       </main>
+      <Footer />
       <GlobalStyle />
     </div>
   );
