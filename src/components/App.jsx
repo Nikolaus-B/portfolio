@@ -5,6 +5,7 @@ import { GlobalStyle } from './GloabalStyle';
 import { Header } from './header/Header';
 import { Home } from './Home/Home';
 import { Qualification } from './Qualification/Qualification';
+import { ScrollUp } from './ScrollUp/ScrollUp';
 import { Services } from './Services/Services';
 import { Skills } from './Skills/Skills';
 
@@ -21,6 +22,7 @@ export const App = () => {
         <Contact />
       </main>
       <Footer />
+      <ScrollUp />
       <GlobalStyle />
     </div>
   );
