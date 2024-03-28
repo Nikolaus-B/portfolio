@@ -41,7 +41,9 @@ export const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
+                <p className="qualification__subtitle">Remote</p>
+                <br />
+                <p className="qualification__subtitle">Courses</p>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
                   2023 - 2024
@@ -59,41 +61,30 @@ export const Qualification = () => {
                 <div className="qualification__line"></div>
               </div>
               <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
+                <h3 className="qualification__title">Logos IT Academy</h3>
+                <p className="qualification__subtitle">Lviv</p>
+                <br />
+                <p className="qualification__subtitle">Courses</p>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
+                  2018 - 2019
                 </div>
               </div>
             </div>
             <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
+              <div className="qualification__container">
+                <h3 className="qualification__title">NULP</h3>
+                <p className="qualification__subtitle">Lviv</p>
+                <br />
+                <p className="qualification__subtitle">Bachelor degree</p>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
+                  2018 - 2023
                 </div>
               </div>
               <div>
                 <div className="qualification__rounder"></div>
                 <div className="qualification__line"></div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <div className="qualification__rounder"></div>
-                <div className="qualification__line"></div>
-              </div>
-              <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
-                </div>
               </div>
             </div>
           </div>
@@ -104,40 +95,11 @@ export const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
+                <h3 className="qualification__title">Kharkiv IT Cluster</h3>
+                <p className="qualification__subtitle">Remote</p>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
-                </div>
-              </div>
-              <div>
-                <div className="qualification__rounder"></div>
-                <div className="qualification__line"></div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <div className="qualification__rounder"></div>
-                <div className="qualification__line"></div>
-              </div>
-              <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">GoIT</h3>
-                <p className="qualification__subtitle">Lviv - remote</p>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>
-                  2023 - 2024
+                  2024 - 2024
                 </div>
               </div>
               <div>

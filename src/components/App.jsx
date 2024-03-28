@@ -4,6 +4,7 @@ import { Footer } from './Footer/Footer';
 import { GlobalStyle } from './GloabalStyle';
 import { Header } from './header/Header';
 import { Home } from './Home/Home';
+// import { Portfolio } from './Portfolio/Portfolio';
 import { Qualification } from './Qualification/Qualification';
 import { ScrollUp } from './ScrollUp/ScrollUp';
 import { Services } from './Services/Services';
@@ -19,6 +20,7 @@ export const App = () => {
         <Skills />
         <Services />
         <Qualification />
+        {/* <Portfolio /> */}
         <Contact />
       </main>
       <Footer />
