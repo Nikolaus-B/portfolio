@@ -13,7 +13,7 @@ export const Services = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <i className="uil uil-web-grid services__icon"></i>
-          <h3 className="services__title">Developer</h3>
+          <h3 className="services__title">Front-end</h3>
 
           <p className="services__button" onClick={() => setShowModal(1)}>
             View more
@@ -32,7 +32,7 @@ export const Services = () => {
                 onClick={() => setShowModal(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Developer</h3>
+              <h3 className="services__modal-title">Front-end</h3>
               <p className="services__modal-description">
                 Can provide quality work to clients and companies
               </p>
@@ -40,19 +40,20 @@ export const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Proficiency in HTML, CSS, JavaScript, TypeScript and React.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Ability to create responsive and visually appealing user
+                    interfaces.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Understanding of UI/UX principles and design patterns.
                   </p>
                 </li>
               </ul>
@@ -62,7 +63,7 @@ export const Services = () => {
 
         <div className="services__content">
           <i className="uil uil-arrow services__icon"></i>
-          <h3 className="services__title">Developer</h3>
+          <h3 className="services__title">Back-end</h3>
 
           <p className="services__button" onClick={() => setShowModal(2)}>
             View more
@@ -81,7 +82,7 @@ export const Services = () => {
                 onClick={() => setShowModal(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Developer</h3>
+              <h3 className="services__modal-title">Back-end</h3>
               <p className="services__modal-description">
                 Can provide quality work to clients and companies
               </p>
@@ -89,19 +90,22 @@ export const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Ability to build RESTful APIs for communication between
+                    frontend and backend systems.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Knowledge of server-side programming language such as
+                    Node.js.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Perform CRUD (Create, Read, Update, Delete) operations on
+                    MongoDB collections using MongoDB
                   </p>
                 </li>
               </ul>
@@ -111,7 +115,7 @@ export const Services = () => {
 
         <div className="services__content">
           <i className="uil uil-edit services__icon"></i>
-          <h3 className="services__title">Developer</h3>
+          <h3 className="services__title">Employee</h3>
 
           <p className="services__button" onClick={() => setShowModal(3)}>
             View more
@@ -130,7 +134,7 @@ export const Services = () => {
                 onClick={() => setShowModal(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">Developer more</h3>
+              <h3 className="services__modal-title">Employee</h3>
               <p className="services__modal-description">
                 Can provide quality work to clients and companies
               </p>
@@ -138,19 +142,21 @@ export const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Strong problem-solving skills and a willingness to tackle
+                    challenges.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Effective communication and collaboration within a team
+                    environment.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Develop web application
+                    Adaptability to changing project requirements and deadlines.
                   </p>
                 </li>
               </ul>

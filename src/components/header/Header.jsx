@@ -32,11 +32,11 @@ export const Header = () => {
                 <i className="uil uil-briefcase-alt nav-icon"></i>Services
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a href="#portfolio" className="nav__link">
                 <i className="uil uil-scenery nav-icon"></i>Portfolio
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav-icon"></i>Contact

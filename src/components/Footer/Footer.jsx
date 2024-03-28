@@ -12,15 +12,20 @@ export const Footer = () => {
             </a>
           </li>
           <li className="footer__item">
+            <a href="#skills" className="footer__link">
+              Skills
+            </a>
+          </li>
+          <li className="footer__item">
             <a href="#services" className="footer__link">
               Services
             </a>
           </li>
-          <li className="footer__item">
+          {/* <li className="footer__item">
             <a href="#portfolio" className="footer__link">
               Portfolio
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className="footer__social">
