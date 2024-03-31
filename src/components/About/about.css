@@ -5,15 +5,17 @@
 }
 
 .about__img {
-  width: 350px;
-  height: 350px;
-  border-radius: 1.5rem;
+  width: 370px;
+  height: 370px;
+  /* border-radius: 1.5rem; */
   justify-self: center;
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  /* padding: 0 4rem 0 0; */
+  line-height: 22px;
   margin-bottom: var(--mb-2-5);
+  margin-right: 10px;
 }
 
 /** breakpoints **/

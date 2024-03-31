@@ -6,10 +6,8 @@ export const Contact = () => {
       <h2 className="section__title">Get in touch</h2>
       <p className="section__subtitle">Contact me</p>
 
-      <div className="contact__container container grid">
+      <div className="contact__container container">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
-
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
@@ -47,7 +45,7 @@ export const Contact = () => {
               <i className="bx bxl-telegram contact__card-icon"></i>
 
               <h4 className="contact__card-title">Telegram</h4>
-              <p className="contact__card-data">Click and lets talk</p>
+              <p className="contact__card-data">@B_Mykolka</p>
 
               <a
                 href="https://t.me/B_Mykolka"

@@ -1,5 +1,6 @@
 .contact__container {
-  grid-template-columns: repeat(2, max-content);
+  /* grid-template-columns: repeat(2, max-content); */
+  display: flex;
   justify-content: center;
   column-gap: 6rem;
   padding-bottom: 3rem;
@@ -43,6 +44,7 @@
 
 .contact__card-data {
   display: block;
+  margin-top: 5px;
   margin-bottom: var(--mb-0-75);
 }
 
