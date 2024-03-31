@@ -1,5 +1,5 @@
 import './about.css';
-import AboutImg from '../../assets/photo1710765257.jpeg';
+import AboutImg from '../../assets/Mykola-photo.jpeg';
 import CV from '../../assets/Mykola_Baliasevych_Dev.pdf';
 import { Info } from 'components/Info/Info';
 
