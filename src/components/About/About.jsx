@@ -1,6 +1,6 @@
 import './about.css';
 import AboutImg from '../../assets/Mykola-photo.jpeg';
-import CV from '../../assets/Mykola_Baliasevych_Dev.pdf';
+import CV from '../../assets/Mykola_Baliasevych_CV.pdf';
 import { Info } from 'components/Info/Info';
 
 export const About = () => {
