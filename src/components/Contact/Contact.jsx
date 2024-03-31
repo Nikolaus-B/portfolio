@@ -62,7 +62,7 @@ export const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
+        {/* <div className="contact__content">
           <h3 className="contact__title">Write me your projects</h3>
 
           <form className="contact__form">
@@ -96,7 +96,7 @@ export const Contact = () => {
             </div>
             <button className="button button--flex">Send Message</button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );
