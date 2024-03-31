@@ -10,7 +10,7 @@ export const Data = () => {
         dedicated to my work
       </p>
       <a href="#contact" className="button button--flex">
-        Sey Hello
+        Say Hello
       </a>
     </div>
   );
