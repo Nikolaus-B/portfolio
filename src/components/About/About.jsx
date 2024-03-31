@@ -14,10 +14,16 @@ export const About = () => {
           <Info />
 
           <p className="about__description">
-            Front-End developer, I create web pages with UI/UX user interface
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quod
-            laborum rem ullam, similique praesentium, quo cumque tempore aliquid
-            a voluptates sequi exercitationem?
+            As a Front-End developer, I am passionate about crafting captivating
+            web experiences that seamlessly blend functionality with aesthetic
+            appeal. With a keen eye for detail and a deep understanding of UI/UX
+            principles, I specialize in creating dynamic and user-friendly web
+            pages.
+            {/* <br /> My dedication to staying at the forefront of emerging
+            technologies and my commitment to delivering exceptional results
+            drive my continuous growth in this ever-evolving field. Through my
+            work, I aim to not only meet but exceed the expectations of users,
+            leaving a lasting impression with every interaction. */}
           </p>
 
           <a download="" href={CV} className="button button--flex">
